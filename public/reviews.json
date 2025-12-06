@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "6759d2a4f12ab34567890fff",
+    "foodId": "6759c1f4e12ab34567890abc",
+    "reviewerName": "Ariana Sultana",
+    "reviewerImage": "https://i.ibb.co/sample-user-1.jpg",
+    "rating": 5,
+    "comment": "The food was delicious! Perfect taste and fast delivery.",
+    "date": "2025-01-15T12:45:00Z"
+  },
+  {
+    "_id": "6759d2a4f12ab34567890ffe",
+    "foodId": "6759c1f4e12ab34567890abc",
+    "reviewerName": "Mohammad Riaz",
+    "reviewerImage": "https://i.ibb.co/sample-user-2.jpg",
+    "rating": 4,
+    "comment": "Good quality and hot when delivered. Slightly high price.",
+    "date": "2025-01-16T09:30:00Z"
+  },
+  {
+    "_id": "6759d2a4f12ab34567890ffd",
+    "foodId": "6759c1f4e12ab34567890bde",
+    "reviewerName": "Nusrat Jahan",
+    "reviewerImage": "https://i.ibb.co/sample-user-3.jpg",
+    "rating": 5,
+    "comment": "Absolutely fantastic Biriyani! Must try item. Zero complaints.",
+    "date": "2025-01-17T18:10:00Z"
+  },
+  {
+    "_id": "6759d2a4f12ab34567890ffc",
+    "foodId": "6759c1f4e12ab34567890cfa",
+    "reviewerName": "Imran Hossain",
+    "reviewerImage": "https://i.ibb.co/sample-user-4.jpg",
+    "rating": 3,
+    "comment": "The presentation was nice, but the curry lacked enough spice for my taste.",
+    "date": "2025-01-18T14:55:00Z"
+  },
+  {
+    "_id": "6759d2a4f12ab34567890ffb",
+    "foodId": "6759c1f4e12ab34567890abc",
+    "reviewerName": "Sonia Akter",
+    "reviewerImage": "https://i.ibb.co/sample-user-5.jpg",
+    "rating": 5,
+    "comment": "Came quickly and still warm. My favorite dish from this place!",
+    "date": "2025-01-19T20:22:00Z"
+  },
+  {
+    "_id": "6759d2a4f12ab34567890ffa",
+    "foodId": "6759c1f4e12ab34567890bde",
+    "reviewerName": "Tanjil Ahmed",
+    "reviewerImage": "https://i.ibb.co/sample-user-6.jpg",
+    "rating": 4,
+    "comment": "Very satisfied with the portion size. Delivery was delayed by 10 minutes.",
+    "date": "2025-01-20T11:05:00Z"
+  },
+  {
+    "_id": "6759d2a4f12ab34567890ff9",
+    "foodId": "6759c1f4e12ab34567890cfa",
+    "reviewerName": "Fariha Khan",
+    "reviewerImage": "https://i.ibb.co/sample-user-7.jpg",
+    "rating": 2,
+    "comment": "Forgot one item in the order. The item that came was okay.",
+    "date": "2025-01-21T16:40:00Z"
+  }
+]
