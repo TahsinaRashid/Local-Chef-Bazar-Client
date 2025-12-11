@@ -7,7 +7,10 @@ export default function Footer() {
     <footer className="border-t border-gray-200 dark:border-gray-800 pt-16 pb-8 px-6 md:px-12 mt-10">
       <div className="max-w-full mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-10">
         <div className="flex flex-col gap-4">
-            <Logo />
+          <div className=''>
+              <Logo />
+          </div>
+
             <p className="text-sm text-gray-950 font-semibold ">Connecting wonderful cooks with food lovers. Authentic, fresh and local.</p>
         </div>
 

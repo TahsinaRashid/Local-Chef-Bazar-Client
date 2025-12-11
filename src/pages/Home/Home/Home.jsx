@@ -43,8 +43,8 @@ export default function Home() {
             </div>
             </div>
           </div>
-        </div>
-        <Reviews reviewsPromise={reviewsPromise} />
+      </div>
+      <Reviews reviewsPromise={reviewsPromise} />
     </>
   )
 }

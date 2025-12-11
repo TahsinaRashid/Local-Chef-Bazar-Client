@@ -28,6 +28,7 @@ export default function Navbar() {
               <a className="text-sm font-medium hover:text-blue-800 transition-colors" href="/">Home</a>
               <a className="text-sm font-medium hover:text-blue-800 transition-colors" href="/meals">Meals</a>
               {user && <a className="text-sm font-medium hover:text-blue-800 transition-colors" href="/dashboard">Dashboard</a>}
+              <a className="text-sm font-medium hover:text-blue-800 transition-colors" href="/orderpage">Order</a>
             </div>
 
             {/* Auth Buttons & Cart */}
@@ -51,7 +52,7 @@ export default function Navbar() {
                   </>
                 )}
               </div>
-              <Link to="/chef" className="px-4 py-2 bg-[#ebf3e7] dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm font-bold text-gray-900 dark:text-white transition-colors">Be a Chef</Link>
+              <Link to="/chef" className="hidden md:flex px-4 py-2 bg-[#ebf3e7] dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm font-bold text-gray-900 dark:text-white transition-colors">Be a Chef</Link>
             </div>
 
 

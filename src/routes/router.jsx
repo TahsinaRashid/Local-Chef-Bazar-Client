@@ -6,7 +6,7 @@ import Login from "../pages/Auth/Login/Login";
 import Register from "../pages/Auth/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Chef from "../pages/Chef/Chef";
-
+import Meals from '../pages/Meals/Meals'
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +15,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         Component:Home
+      },
+      {
+        path: "/meals",
+        Component : Meals
       },
       {
         path:'chef',
