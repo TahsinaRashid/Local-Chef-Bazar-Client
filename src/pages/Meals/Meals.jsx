@@ -21,11 +21,11 @@ const fetchMeals = async (sortOrder) => {
 // Meal Card with motion
 const MealCard = ({ meal, isLoggedIn, navigate }) => {
   const handleSeeDetails = () => {
-    if (isLoggedIn) {
-      navigate(`/meals/${meal._id}`);
-    } else {
-      navigate(`/login?redirect=/meals/${meal._id}`);
-    }
+    // if (isLoggedIn) {
+      navigate(`/meals/${meal._id}/details`);
+    // } else {
+    //   navigate(`/login`);
+    // }
   };
 
   return (
@@ -56,17 +56,17 @@ const MealCard = ({ meal, isLoggedIn, navigate }) => {
       <div className="p-4">
         <h3 className="text-xl font-bold text-gray-900">{meal.foodName}</h3>
         <p className="text-gray-600 text-sm mt-1">
-          👨‍🍳 <span className="font-medium">{meal.chefName}</span>
+          👨‍🍳 <span className="font-medium">{meal.chefName}({meal.chefId})</span>
         </p>
         <p className="text-gray-600 text-sm mt-1 flex items-center gap-1">
           📍 {meal.deliveryArea}
         </p>
-        <p className="text-2xl font-bold text-green-600 mt-3">
+        <p className="text-2xl font-bold text-green-800 mt-3">
           ${meal.foodPrice.toFixed(2)}
         </p>
         <button
           onClick={handleSeeDetails}
-          className="w-full mt-4 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-2 rounded-lg font-semibold transition-all duration-300 active:scale-95"
+          className="w-full mt-4 bg-gradient-to-r from-green-800 to-green-950 hover:from-green-600 hover:to-green-700 text-white py-2 rounded-lg font-semibold transition-all duration-300 active:scale-95"
         >
           See Details
         </button>
@@ -113,7 +113,7 @@ const MealsPage = () => {
         </p>
       </div>
 
-      <div className="flex justify-end mb-6">
+      <div className="flex justify-center mb-6">
         <select
           className="border text-gray-800 bg-green-100 shadow-sm rounded-lg px-4 py-2 focus:ring-2 focus:ring-green-400"
           value={sortOrder}

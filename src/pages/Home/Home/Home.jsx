@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 import Banner from '../Banner/Banner'
 import { MdMenuBook } from 'react-icons/md'
 import { LuChefHat } from 'react-icons/lu'
 import { GrDeliver } from 'react-icons/gr'
 import Reviews from '../Reviews/Reviews';
+import QuickAddMeals from './MealsSection';
+import Meals from './MealsSection';
+import MealsPage from '../../Meals/Meals';
 const reviewsPromise= fetch('/reviews.json').then(res=>res.json());
 
 export default function Home() {
@@ -44,7 +47,10 @@ export default function Home() {
             </div>
           </div>
       </div>
+      <MealsPage/>
       <Reviews reviewsPromise={reviewsPromise} />
     </>
   )
 }
+
+
